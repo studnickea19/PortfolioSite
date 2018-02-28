@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #dfdfdfdf;
+}
+.header_image{
+	height: 50px;
+	width: 100%;
+	background-image: url("vintage.jpg");
+}
+.navbar{
+	width: 100%;
+	background: radial-gradient(#4b4b4b 40%, #8b8b8b);
+	color: #ffffff;
+	justify-content: left;
+	padding: 0px;
+	justify-content: center;
+}
+.nav-link{
+	color: #ffffff;
+	font-style: none;	
+	font-size: 20px;
+}
+.nav-link:hover{
+	background-color: #000000;
+	color: #ffffff;
+	font-style: none;
+	border-radius: 50px;
+}
+h1{
+	text-align: center 
+}
+.content_box{
+	margin: 5px;
+	border: 0px solid;
+	border-collapse: collapse;
+	padding: 25px;
+	background-color: #c7dad5;
+	height: 500px; 
+	border-radius: 6px;
+	box-shadow: 2px 2px grey;
+	overflow: scroll;
+}
+div.content_box:hover{
+	box-shadow: 4px 4px 2px 2px grey;
+}
+div.shadow-table{
+	margin: 15px;
+	box-shadow: 1px 6px 8px grey;
+
+}
+table{
+	width: 100%;
+	height: auto;
+	table-layout: fixed;
+	border: 1px solid grey;
+	overflow: scroll;
+}
+tr{
+	width: 50%;
+	height: 50px;
+	border: 1px solid grey;
+}
+td:hover{
+	background-color: #8b8b8b;
+	color: white;
+}
+td{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid grey;
+}
+.gallery{
+	width: 100%;
+	padding: 0;
+	justify-content: center !important;
+	display: block;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	padding: 4px;
+	border-radius: 6px;
+	justify-content: center;
+
+}
